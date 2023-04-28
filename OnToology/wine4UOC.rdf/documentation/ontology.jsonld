@@ -2523,6 +2523,9 @@
   "@id" : "http://purl.org/dc/elements/1.1/rights",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/abstract",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -2530,6 +2533,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
@@ -2543,8 +2549,11 @@
 }, {
   "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "wineOntology4UOC"
+  } ],
   "http://purl.org/dc/terms/abstract" : [ {
-    "@value" : "European Materials & Modelling Ontology (EMMO)\nThis ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)."
+    "@value" : "This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)."
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Laura Hervas Sanclemente"
@@ -2558,7 +2567,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Derived from the DAML Wine ontology at \n      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml\n      Substantially changed, in particular the Region based relations."
+    "@value" : "Derived from the DAML Wine ontology at \n     http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml\n     Substantially changed, in particular the Region based relations."
   }, {
     "@value" : "An example OWL ontology"
   } ],
@@ -2567,6 +2576,12 @@
   } ],
   "http://www.w3.org/2002/07/owl#priorVersion" : [ {
     "@id" : "http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/def/wineforuoc"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Version release: 1.0"
   } ],
   "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title" : [ {
     "@language" : "en",
