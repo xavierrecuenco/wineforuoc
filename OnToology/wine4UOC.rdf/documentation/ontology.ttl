@@ -7,18 +7,20 @@
 @base <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#> .
 
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> rdf:type owl:Ontology ;
-                                                        <http://purl.org/dc/terms/abstract> """European Materials & Modelling Ontology (EMMO)
-This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).""" ;
+                                                        owl:versionIRI <https://w3id.org/def/wineforuoc> ;
+                                                        <http://purl.org/dc/elements/1.1/title> "wineOntology4UOC" ;
+                                                        <http://purl.org/dc/terms/abstract> "This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)." ;
                                                         <http://purl.org/dc/terms/creator> "Laura Hervas Sanclemente" ,
                                                                                            "Xavier Recuenco Betriu" ;
                                                         <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nd/3.0/es/> ,
                                                                                            "https://creativecommons.org/licenses/by-nd/3.0/es/" ;
                                                         rdfs:comment """Derived from the DAML Wine ontology at 
-      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
-      Substantially changed, in particular the Region based relations."""@en ,
+     http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
+     Substantially changed, in particular the Region based relations."""@en ,
                                                                      "An example OWL ontology" ;
                                                         rdfs:label "Wine4UOC Ontology" ;
                                                         owl:priorVersion <http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine> ;
+                                                        owl:versionInfo "Version release: 1.0" ;
                                                         :title "wineOntology4UOC"@en .
 
 #################################################################
@@ -37,6 +39,10 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 <http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/terms/abstract
 <http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
 
@@ -47,6 +53,10 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 
 ###  http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#license
+rdf:license rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#sameAs
