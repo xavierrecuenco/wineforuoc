@@ -11,15 +11,15 @@
 This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).""" ;
                                                         <http://purl.org/dc/terms/creator> "Laura Hervas Sanclemente" ,
                                                                                            "Xavier Recuenco Betriu" ;
-                                                        <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+                                                        <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/legalcode> ,
+                                                                                           "https://creativecommons.org/licenses/by/4.0/legalcode" ;
                                                         rdfs:comment """Derived from the DAML Wine ontology at 
       http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
       Substantially changed, in particular the Region based relations."""@en ,
                                                                      "An example OWL ontology" ;
                                                         rdfs:label "Wine4UOC Ontology" ;
                                                         owl:priorVersion <http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine> ;
-                                                        :title "wineOntology4UOC"@en ;
-                                                        <https://schema.org/license> <https://creativecommons.org/licenses/by/4.0/legalcode> .
+                                                        :title "wineOntology4UOC"@en .
 
 #################################################################
 #    Annotation properties
@@ -59,10 +59,6 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title
 :title rdf:type owl:AnnotationProperty .
-
-
-###  https://schema.org/license
-<https://schema.org/license> rdf:type owl:AnnotationProperty .
 
 
 #################################################################

@@ -11,14 +11,14 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:wine="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:schema="https://schema.org/">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine">
         <terms:abstract>European Materials &amp; Modelling Ontology (EMMO)
 This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</terms:abstract>
         <terms:creator>Laura Hervas Sanclemente</terms:creator>
         <terms:creator>Xavier Recuenco Betriu</terms:creator>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/legalcode</terms:license>
         <rdfs:comment xml:lang="en">Derived from the DAML Wine ontology at 
       http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
       Substantially changed, in particular the Region based relations.</rdfs:comment>
@@ -26,7 +26,6 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
         <rdfs:label>Wine4UOC Ontology</rdfs:label>
         <owl:priorVersion rdf:resource="http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine"/>
         <title xml:lang="en">wineOntology4UOC</title>
-        <schema:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
     </owl:Ontology>
     
 
@@ -103,13 +102,6 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title"/>
-    
-
-
-    <!-- https://schema.org/license -->
-
-
-    <owl:AnnotationProperty rdf:about="https://schema.org/license"/>
     
 
 
