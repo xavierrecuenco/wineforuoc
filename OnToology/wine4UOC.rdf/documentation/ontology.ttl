@@ -12,24 +12,17 @@
                                                         <http://purl.org/dc/terms/abstract> "This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)." ;
                                                         <http://purl.org/dc/terms/creator> "Laura Hervas Sanclemente" ,
                                                                                            "Xavier Recuenco Betriu" ;
-                                                        <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nd/3.0/es/> ,
-                                                                                           "https://creativecommons.org/licenses/by-nd/3.0/es/" ;
+                                                        <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nd/3.0/es/> ;
                                                         rdfs:comment """Derived from the DAML Wine ontology at 
      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
      Substantially changed, in particular the Region based relations."""@en ,
                                                                      "An example OWL ontology" ;
-                                                        rdfs:label "Wine4UOC Ontology" ;
                                                         owl:priorVersion <http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine> ;
-                                                        owl:versionInfo "Version release: 1.0" ;
-                                                        :title "wineOntology4UOC"@en .
+                                                        owl:versionInfo "Version release: 1.0" .
 
 #################################################################
 #    Annotation properties
 #################################################################
-
-###  http://creativecommons.org/ns#license
-<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
-
 
 ###  http://purl.org/dc/elements/1.1/license
 <http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
