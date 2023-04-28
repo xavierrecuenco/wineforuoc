@@ -3,12 +3,12 @@
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://purl.org/dc/terms/creator> "Laura Hervas Sanclemente" .
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://purl.org/dc/terms/creator> "Xavier Recuenco Betriu" .
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/legalcode> .
+<http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode" .
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Derived from the DAML Wine ontology at \n      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml\n      Substantially changed, in particular the Region based relations."@en .
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://www.w3.org/2000/01/rdf-schema#comment> "An example OWL ontology" .
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://www.w3.org/2000/01/rdf-schema#label> "Wine4UOC Ontology" .
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://www.w3.org/2002/07/owl#priorVersion> <http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine> .
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title> "wineOntology4UOC"@en .
-<http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> <https://schema.org/license> <https://creativecommons.org/licenses/by/4.0/legalcode> .
 # 
 # 
 # #################################################################
@@ -44,9 +44,6 @@
 # 
 # http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# https://schema.org/license
-<https://schema.org/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
