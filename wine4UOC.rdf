@@ -12,14 +12,13 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:schema="https://schema.org/"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine">
         <dcterms:abstract>European Materials &amp; Modelling Ontology (EMMO)
 This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</dcterms:abstract>
         <dcterms:creator>Laura Hervas Sanclemente</dcterms:creator>
         <dcterms:creator>Xavier Recuenco Betriu</dcterms:creator>
-        <schema:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
+        <dcterms:license>https://creativecommons.org/licenses/by/4.0/legalcode</dcterms:license>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
         <rdfs:comment>An example OWL ontology</rdfs:comment>
         <rdfs:comment xml:lang="en">Derived from the DAML Wine ontology at 
