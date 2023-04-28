@@ -7,19 +7,21 @@
 @base <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#> .
 
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine> rdf:type owl:Ontology ;
-                                                        <http://purl.org/dc/terms/abstract> """European Materials & Modelling Ontology (EMMO)
-This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).""" ;
-                                                        <http://purl.org/dc/terms/creator> "Laura Hervas Sanclemente" ,
-                                                                                           "Xavier Recuenco Betriu" ;
-                                                        <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/legalcode> ,
-                                                                                           "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-                                                        rdfs:comment """Derived from the DAML Wine ontology at 
+                                                        <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by/3.0/legalcode" ;
+                                                        <http://purl.org/dc/elements/1.1/rights> "https://creativecommons.org/licenses/by/3.0/legalcode" ;
+                                                        <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/> ;
+                                                        <http://purl.org/dc/terms/rights> "https://creativecommons.org/licenses/by/3.0/legalcode" ;
+                                                        <http://www.w3.org/1999/xhtml/vocab#license> "https://creativecommons.org/licenses/by/3.0/legalcode" ;
+                                                        rdfs:comment "An example OWL ontology" ,
+                                                                     """Derived from the DAML Wine ontology at 
       http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
-      Substantially changed, in particular the Region based relations."""@en ,
-                                                                     "An example OWL ontology" ;
+      Substantially changed, in particular the Region based relations.
+    """ ;
                                                         rdfs:label "Wine4UOC Ontology" ;
                                                         owl:priorVersion <http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine> ;
-                                                        :title "wineOntology4UOC"@en .
+                                                        :created_by """Laura Hervas Sanclemente
+Xavier Recuenco Betriu""" ;
+                                                        :title "wineOntology4UOC" .
 
 #################################################################
 #    Annotation properties
@@ -29,24 +31,20 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 <http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/elements/1.1/license
-<http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
-
-
 ###  http://purl.org/dc/elements/1.1/rights
 <http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/abstract
-<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/terms/creator
-<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
-
-
 ###  http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/1999/xhtml/vocab#license
+<http://www.w3.org/1999/xhtml/vocab#license> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#sameAs
@@ -59,6 +57,14 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title
 :title rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#resource
+rdf:resource rdf:type rdfs:Datatype .
 
 
 #################################################################
