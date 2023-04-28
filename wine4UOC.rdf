@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
      xml:base="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine"
+     xmlns:cc="http://creativecommons.org/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://creativecommons.org/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:vin="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
@@ -12,24 +12,21 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:vocab="http://www.w3.org/1999/xhtml/vocab#">
+     xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine">
-        <ns:license>https://creativecommons.org/licenses/by/3.0/legalcode</ns:license>
-        <dc:rights>https://creativecommons.org/licenses/by/3.0/legalcode</dc:rights>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/"/>
-        <terms:rights>https://creativecommons.org/licenses/by/3.0/legalcode</terms:rights>
-        <vocab:license>https://creativecommons.org/licenses/by/3.0/legalcode</vocab:license>
+        <dcterms:abstract>European Materials &amp; Modelling Ontology (EMMO)
+This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</dcterms:abstract>
+        <dcterms:creator>Laura Hervas Sanclemente</dcterms:creator>
+        <dcterms:creator>Xavier Recuenco Betriu</dcterms:creator>
+        <dcterms:license>https://creativecommons.org/licenses/by-nd/3.0/es/</dcterms:license>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/"/>
         <rdfs:comment>An example OWL ontology</rdfs:comment>
-        <rdfs:comment>Derived from the DAML Wine ontology at 
+        <rdfs:comment xml:lang="en">Derived from the DAML Wine ontology at 
       http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
-      Substantially changed, in particular the Region based relations.
-    </rdfs:comment>
+      Substantially changed, in particular the Region based relations.</rdfs:comment>
         <rdfs:label>Wine4UOC Ontology</rdfs:label>
         <owl:priorVersion rdf:resource="http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine"/>
-        <created_by>Laura Hervas Sanclemente
-Xavier Recuenco Betriu</created_by>
-        <title>wineOntology4UOC</title>
+        <title xml:lang="en">wineOntology4UOC</title>
     </owl:Ontology>
     
 
@@ -51,27 +48,33 @@ Xavier Recuenco Betriu</created_by>
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/rights -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
     
 
 
+    <!-- http://purl.org/dc/terms/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/rights -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
-    
-
-
-    <!-- http://www.w3.org/1999/xhtml/vocab#license -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/xhtml/vocab#license"/>
     
 
 
@@ -90,23 +93,6 @@ Xavier Recuenco Betriu</created_by>
     <!-- http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#resource -->
-
-    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#resource"/>
     
 
 
