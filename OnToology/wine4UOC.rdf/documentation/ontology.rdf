@@ -11,21 +11,24 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:wine="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vocab="http://www.w3.org/1999/xhtml/vocab#">
     <owl:Ontology rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine">
-        <terms:abstract>European Materials &amp; Modelling Ontology (EMMO)
-This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</terms:abstract>
-        <terms:creator>Laura Hervas Sanclemente</terms:creator>
-        <terms:creator>Xavier Recuenco Betriu</terms:creator>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
-        <terms:license>https://creativecommons.org/licenses/by/4.0/legalcode</terms:license>
-        <rdfs:comment xml:lang="en">Derived from the DAML Wine ontology at 
-      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
-      Substantially changed, in particular the Region based relations.</rdfs:comment>
+        <ns:license>https://creativecommons.org/licenses/by/3.0/legalcode</ns:license>
+        <dc:rights>https://creativecommons.org/licenses/by/3.0/legalcode</dc:rights>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/"/>
+        <terms:rights>https://creativecommons.org/licenses/by/3.0/legalcode</terms:rights>
+        <vocab:license>https://creativecommons.org/licenses/by/3.0/legalcode</vocab:license>
         <rdfs:comment>An example OWL ontology</rdfs:comment>
+        <rdfs:comment>Derived from the DAML Wine ontology at 
+      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
+      Substantially changed, in particular the Region based relations.
+    </rdfs:comment>
         <rdfs:label>Wine4UOC Ontology</rdfs:label>
         <owl:priorVersion rdf:resource="http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine"/>
-        <title xml:lang="en">wineOntology4UOC</title>
+        <created_by>Laura Hervas Sanclemente
+Xavier Recuenco Betriu</created_by>
+        <title>wineOntology4UOC</title>
     </owl:Ontology>
     
 
@@ -49,13 +52,6 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/license -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/rights -->
 
 
@@ -63,24 +59,24 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
     
 
 
-    <!-- http://purl.org/dc/terms/abstract -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/creator -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
-    
-
-
     <!-- http://purl.org/dc/terms/license -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/rights -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
+    
+
+
+    <!-- http://www.w3.org/1999/xhtml/vocab#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/xhtml/vocab#license"/>
     
 
 
@@ -102,6 +98,25 @@ This ontology is released under a Creative Commons license Attribution 4.0 Inter
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#resource -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#resource"/>
     
 
 

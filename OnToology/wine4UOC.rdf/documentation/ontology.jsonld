@@ -2517,19 +2517,19 @@
   "@id" : "http://creativecommons.org/ns#license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/elements/1.1/license",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://purl.org/dc/elements/1.1/rights",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/abstract",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://purl.org/dc/terms/creator",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#resource",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/1999/xhtml/vocab#license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
@@ -2543,24 +2543,25 @@
 }, {
   "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/terms/abstract" : [ {
-    "@value" : "European Materials & Modelling Ontology (EMMO)\nThis ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)."
+  "http://creativecommons.org/ns#license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/3.0/legalcode"
   } ],
-  "http://purl.org/dc/terms/creator" : [ {
-    "@value" : "Laura Hervas Sanclemente"
-  }, {
-    "@value" : "Xavier Recuenco Betriu"
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/3.0/legalcode"
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@id" : "https://creativecommons.org/licenses/by/4.0/legalcode"
-  }, {
-    "@value" : "https://creativecommons.org/licenses/by/4.0/legalcode"
+    "@id" : "http://creativecommons.org/licenses/"
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/3.0/legalcode"
+  } ],
+  "http://www.w3.org/1999/xhtml/vocab#license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/3.0/legalcode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Derived from the DAML Wine ontology at \n      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml\n      Substantially changed, in particular the Region based relations."
-  }, {
     "@value" : "An example OWL ontology"
+  }, {
+    "@value" : "Derived from the DAML Wine ontology at \n      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml\n      Substantially changed, in particular the Region based relations.\n    "
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Wine4UOC Ontology"
@@ -2568,8 +2569,10 @@
   "http://www.w3.org/2002/07/owl#priorVersion" : [ {
     "@id" : "http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine"
   } ],
+  "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#created_by" : [ {
+    "@value" : "Laura Hervas Sanclemente\nXavier Recuenco Betriu"
+  } ],
   "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title" : [ {
-    "@language" : "en",
     "@value" : "wineOntology4UOC"
   } ]
 }, {

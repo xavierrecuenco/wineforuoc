@@ -6,9 +6,6 @@
     "LateHarvest" : {
       "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LateHarvest"
     },
-    "abstract" : {
-      "@id" : "http://purl.org/dc/terms/abstract"
-    },
     "DryRedWine" : {
       "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRedWine"
     },
@@ -156,9 +153,6 @@
     "Ribera_Del_Duero_Red" : {
       "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Ribera_Del_Duero_Red"
     },
-    "creator" : {
-      "@id" : "http://purl.org/dc/terms/creator"
-    },
     "DessertWine" : {
       "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DessertWine"
     },
@@ -169,7 +163,7 @@
       "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TableWine"
     },
     "rights" : {
-      "@id" : "http://purl.org/dc/elements/1.1/rights"
+      "@id" : "http://purl.org/dc/terms/rights"
     },
     "hasBody" : {
       "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody",
