@@ -2514,9 +2514,6 @@
     } ]
   } ]
 }, {
-  "@id" : "http://creativecommons.org/ns#license",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://purl.org/dc/elements/1.1/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -2562,17 +2559,12 @@
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by-nd/3.0/es/"
-  }, {
-    "@value" : "https://creativecommons.org/licenses/by-nd/3.0/es/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Derived from the DAML Wine ontology at \n     http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml\n     Substantially changed, in particular the Region based relations."
   }, {
     "@value" : "An example OWL ontology"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Wine4UOC Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#priorVersion" : [ {
     "@id" : "http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine"
@@ -2582,10 +2574,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "Version release: 1.0"
-  } ],
-  "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#title" : [ {
-    "@language" : "en",
-    "@value" : "wineOntology4UOC"
   } ]
 }, {
   "@id" : "http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Aalto",
