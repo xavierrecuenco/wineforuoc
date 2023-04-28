@@ -17,8 +17,8 @@
 This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</terms:abstract>
         <terms:creator>Laura Hervas Sanclemente</terms:creator>
         <terms:creator>Xavier Recuenco Betriu</terms:creator>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
-        <terms:license>https://creativecommons.org/licenses/by/4.0/legalcode</terms:license>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/"/>
+        <terms:license>https://creativecommons.org/licenses/by-nd/3.0/es/</terms:license>
         <rdfs:comment xml:lang="en">Derived from the DAML Wine ontology at 
       http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
       Substantially changed, in particular the Region based relations.</rdfs:comment>
