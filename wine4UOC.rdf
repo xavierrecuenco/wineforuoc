@@ -10,30 +10,27 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:food="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:dcterms="http://purl.org/dc/terms/">
 
- <owl:Ontology rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine">
-        
-	<owl:versionIRI rdf:resource="https://w3id.org/def/wineforuoc"/>
-	<dc:title>wineOntology4UOC</dc:title>
-	<title xml:lang="en">wineOntology4UOC</title>
-	<dcterms:abstract>This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</dcterms:abstract>
-        <dcterms:creator>Laura Hervas Sanclemente</dcterms:creator>
-        <dcterms:creator>Xavier Recuenco Betriu</dcterms:creator>
-        <terms:license>https://creativecommons.org/licenses/by-nd/3.0/es/</dcterms:license>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/"/>
-        <rdfs:comment>An example OWL ontology</rdfs:comment>
-        <rdfs:comment xml:lang="en">Derived from the DAML Wine ontology at 
-      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
-      Substantially changed, in particular the Region based relations.</rdfs:comment>
-        <rdfs:label>Wine4UOC Ontology</rdfs:label>
-	<owl:versionInfo>Version release: 1.0</owl:versionInfo>
-        <owl:priorVersion rdf:resource="http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine"/>
-        
+     <owl:Ontology rdf:about="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine">
+     <owl:versionIRI rdf:resource="https://w3id.org/def/wineforuoc"/>
+     <dc:title>wineOntology4UOC</dc:title>
+     <title xml:lang="en">wineOntology4UOC</title>
+     <dcterms:abstract>This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).</dcterms:abstract>
+     <dcterms:creator>Laura Hervas Sanclemente</dcterms:creator>
+     <dcterms:creator>Xavier Recuenco Betriu</dcterms:creator>
+     <dcterms:license>https://creativecommons.org/licenses/by-nd/3.0/es/</dcterms:license>
+     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/"/>
+     <rdfs:comment>An example OWL ontology</rdfs:comment>
+     <rdfs:comment xml:lang="en">Derived from the DAML Wine ontology at 
+     http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
+     Substantially changed, in particular the Region based relations.</rdfs:comment>
+     <rdfs:label>Wine4UOC Ontology</rdfs:label>
+     <owl:versionInfo>Version release: 1.0</owl:versionInfo>
+     <owl:priorVersion rdf:resource="http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine"/>
+     
     </owl:Ontology>
     
 
