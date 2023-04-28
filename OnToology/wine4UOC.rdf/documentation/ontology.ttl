@@ -11,8 +11,8 @@
 This ontology is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0).""" ;
                                                         <http://purl.org/dc/terms/creator> "Laura Hervas Sanclemente" ,
                                                                                            "Xavier Recuenco Betriu" ;
-                                                        <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/legalcode> ,
-                                                                                           "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+                                                        <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nd/3.0/es/> ,
+                                                                                           "https://creativecommons.org/licenses/by-nd/3.0/es/" ;
                                                         rdfs:comment """Derived from the DAML Wine ontology at 
       http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
       Substantially changed, in particular the Region based relations."""@en ,

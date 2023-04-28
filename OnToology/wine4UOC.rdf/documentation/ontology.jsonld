@@ -2552,9 +2552,9 @@
     "@value" : "Xavier Recuenco Betriu"
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@id" : "https://creativecommons.org/licenses/by/4.0/legalcode"
+    "@id" : "https://creativecommons.org/licenses/by-nd/3.0/es/"
   }, {
-    "@value" : "https://creativecommons.org/licenses/by/4.0/legalcode"
+    "@value" : "https://creativecommons.org/licenses/by-nd/3.0/es/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
